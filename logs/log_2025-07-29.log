@@ -1,0 +1,150 @@
+2025-07-29 02:23:57,841 - INFO - \U0001f680 Starting the LLMOps data pipeline...
+2025-07-29 02:23:57,881 - ERROR - \u274c Pipeline failed with error: Logger.log() missing 1 required positional argument: 'msg'
+2025-07-29 02:27:31,272 - INFO - \U0001f680 Starting the LLMOps data pipeline...
+2025-07-29 02:27:31,272 - ERROR - \u274c Pipeline failed with error: Logger.log() missing 1 required positional argument: 'msg'
+2025-07-29 02:30:16,620 - INFO - \U0001f680 Starting the LLMOps data pipeline...
+2025-07-29 02:30:16,620 - ERROR - \u274c Pipeline failed with error: Logger.log() missing 1 required positional argument: 'msg'
+2025-07-29 02:30:50,133 - INFO - \U0001f680 Starting the LLMOps data pipeline...
+2025-07-29 02:30:50,133 - ERROR - \u274c Pipeline failed with error: Logger.log() missing 1 required positional argument: 'msg'
+2025-07-29 02:37:13,590 - INFO - \U0001f680 Starting the LLMOps data pipeline...
+2025-07-29 02:37:13,590 - ERROR - Error loading documents from C:\Users\aswin\OneDrive\Documents\Data Science\Gen AI\Final LLMOPS LAW\src\config\reaearch\combined_output1.txt: Error loading C:\Users\aswin\OneDrive\Documents\Data Science\Gen AI\Final LLMOPS LAW\src\config\reaearch\combined_output1.txt
+2025-07-29 02:37:13,590 - ERROR - \u274c Pipeline failed with error: No documents loaded. Please check your input file. | Error: None | File: Unknown File | Line: Unknown Line
+2025-07-29 02:39:32,115 - INFO - \U0001f680 Starting the LLMOps data pipeline...
+2025-07-29 02:39:32,324 - INFO - Loaded 1 documents from reaearch\combined_output1.txt
+2025-07-29 02:39:32,324 - INFO - Filtered to 1 minimal documents.
+2025-07-29 02:39:44,404 - INFO - Use pytorch device_name: cpu
+2025-07-29 02:39:44,404 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 02:39:49,542 - INFO - Successfully prepared 45856 text chunks with embeddings.
+2025-07-29 02:40:43,221 - ERROR - Error storing documents in Pinecone: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Date': 'Mon, 28 Jul 2025 21:10:41 GMT', 'Content-Type': 'application/json', 'Content-Length': '103', 'Connection': 'keep-alive', 'x-pinecone-request-latency-ms': '1360', 'x-pinecone-request-id': '8747668916499521836', 'x-envoy-upstream-service-time': '1', 'server': 'envoy'})
+HTTP response body: {"code":3,"message":"Vector dimension 384 does not match the dimension of the index 1024","details":[]}
+
+2025-07-29 02:40:43,221 - WARNING - \u26a0\ufe0f Pipeline completed but failed to store documents in Pinecone.
+2025-07-29 02:42:21,596 - INFO - \U0001f680 Starting the LLMOps data pipeline...
+2025-07-29 02:42:21,918 - INFO - Loaded 1 documents from reaearch\combined_output1.txt
+2025-07-29 02:42:21,918 - INFO - Filtered to 1 minimal documents.
+2025-07-29 02:42:32,360 - INFO - Use pytorch device_name: cpu
+2025-07-29 02:42:32,360 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 02:42:37,221 - INFO - Successfully prepared 45856 text chunks with embeddings.
+2025-07-29 02:43:28,737 - ERROR - Error storing documents in Pinecone: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Date': 'Mon, 28 Jul 2025 21:13:27 GMT', 'Content-Type': 'application/json', 'Content-Length': '103', 'Connection': 'keep-alive', 'x-pinecone-request-latency-ms': '1084', 'x-pinecone-request-id': '1940721840565513910', 'x-envoy-upstream-service-time': '19', 'server': 'envoy'})
+HTTP response body: {"code":3,"message":"Vector dimension 384 does not match the dimension of the index 1024","details":[]}
+
+2025-07-29 02:43:28,738 - WARNING - \u26a0\ufe0f Pipeline completed but failed to store documents in Pinecone.
+2025-07-29 02:45:35,205 - INFO - \U0001f680 Starting the LLMOps data pipeline...
+2025-07-29 02:45:35,366 - INFO - Loaded 1 documents from reaearch\combined_output1.txt
+2025-07-29 02:45:35,366 - INFO - Filtered to 1 minimal documents.
+2025-07-29 02:45:44,780 - INFO - Use pytorch device_name: cpu
+2025-07-29 02:45:44,780 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 02:45:48,399 - INFO - Successfully prepared 45856 text chunks with embeddings.
+2025-07-29 03:22:36,014 - INFO - Successfully stored 45856 documents in Pinecone index 'legal-chatbot'.
+2025-07-29 03:22:36,014 - INFO - \u2705 Pipeline completed and documents stored in Pinecone.
+2025-07-29 03:57:24,676 - INFO - Use pytorch device_name: cpu
+2025-07-29 03:57:24,676 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 03:58:05,503 - INFO - \U0001f50d Query: provide me the judgenment of the drunk and drive
+2025-07-29 03:58:05,510 - INFO - Use pytorch device_name: cpu
+2025-07-29 03:58:05,510 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 03:58:11,999 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 03:58:12,332 - INFO - \u2705 Similarity (query \u2194 answer): 0.6481
+2025-07-29 03:58:12,332 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7036
+2025-07-29 04:02:20,483 - INFO - Use pytorch device_name: cpu
+2025-07-29 04:02:20,483 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 04:02:53,023 - INFO - Use pytorch device_name: cpu
+2025-07-29 04:02:53,023 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 04:03:56,998 - INFO - Use pytorch device_name: cpu
+2025-07-29 04:03:57,000 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 04:04:11,340 - INFO - \U0001f50d Query: provide judgements of supreme court whereby the court stated that mere photos of spouse with adulteror dosent proove adultry
+
+2025-07-29 04:04:11,346 - INFO - Use pytorch device_name: cpu
+2025-07-29 04:04:11,346 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 04:04:17,185 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 04:04:17,449 - INFO - \u2705 Similarity (query \u2194 answer): 0.6300
+2025-07-29 04:04:17,449 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.5856
+2025-07-29 04:05:59,517 - INFO - \U0001f50d Query: provide judgements of supreme court whereby the court stated that mere photos of spouse with adulteror dosent proove adultry
+
+2025-07-29 04:05:59,523 - INFO - Use pytorch device_name: cpu
+2025-07-29 04:05:59,523 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 04:06:06,565 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 04:06:06,827 - INFO - \u2705 Similarity (query \u2194 answer): 0.6376
+2025-07-29 04:06:06,829 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.5785
+2025-07-29 04:08:23,502 - INFO - Use pytorch device_name: cpu
+2025-07-29 04:08:23,502 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 04:08:28,821 - INFO - \U0001f50d Query: provide judgements of supreme court whereby the court stated that mere photos of spouse with adulteror dosent proove adultry
+
+2025-07-29 04:08:28,826 - INFO - Use pytorch device_name: cpu
+2025-07-29 04:08:28,826 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 04:08:35,243 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 04:08:35,493 - INFO - \u2705 Similarity (query \u2194 answer): 0.6576
+2025-07-29 04:08:35,494 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.5470
+2025-07-29 04:10:02,043 - INFO - \U0001f50d Query: Provide me the judgenment for the murder case for my research
+
+
+2025-07-29 04:10:02,051 - INFO - Use pytorch device_name: cpu
+2025-07-29 04:10:02,051 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 04:10:08,339 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 04:10:08,610 - INFO - \u2705 Similarity (query \u2194 answer): 0.6299
+2025-07-29 04:10:08,610 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7824
+2025-07-29 10:52:31,362 - INFO - \U0001f50d Query: Provide me top 5 judgenmet of divorce
+
+
+2025-07-29 10:52:31,373 - INFO - Use pytorch device_name: cpu
+2025-07-29 10:52:31,373 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 10:52:38,028 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 10:52:38,463 - INFO - \u2705 Similarity (query \u2194 answer): 0.5836
+2025-07-29 10:52:38,463 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8336
+2025-07-29 15:01:14,835 - INFO - \U0001f680 Starting the LLMOps data pipeline...
+2025-07-29 15:01:17,820 - INFO - Loaded 1 documents from reaearch\combined_output2.txt
+2025-07-29 15:01:17,820 - INFO - Filtered to 1 minimal documents.
+2025-07-29 15:01:37,435 - INFO - Use pytorch device_name: cpu
+2025-07-29 15:01:37,435 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 15:01:40,928 - INFO - Successfully prepared 295072 text chunks with embeddings.
+2025-07-29 15:23:34,957 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 15:31:03,053 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 15:31:03,130 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 15:31:03,287 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 15:31:03,334 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 17:14:19,480 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 17:14:19,586 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 17:14:19,664 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 17:14:19,881 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 17:49:24,348 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 18:07:33,392 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 18:07:33,407 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 18:07:34,631 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 18:07:36,961 - WARNING - Retrying (JitterRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /vectors/upsert
+2025-07-29 18:07:48,252 - INFO - \U0001f50d Query: Provide me top 5 judgenmet of divorce
+
+
+2025-07-29 18:07:48,445 - INFO - Use pytorch device_name: cpu
+2025-07-29 18:07:48,447 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 18:07:57,824 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 18:07:58,594 - INFO - \u2705 Similarity (query \u2194 answer): 0.6326
+2025-07-29 18:07:58,595 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8273
+2025-07-29 20:23:18,686 - INFO - \U0001f50d Query: Provide me top 5 judgenmet of divorce
+
+
+
+2025-07-29 20:23:18,701 - INFO - Use pytorch device_name: cpu
+2025-07-29 20:23:18,701 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 20:23:27,831 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 20:23:28,597 - INFO - \u2705 Similarity (query \u2194 answer): 0.5914
+2025-07-29 20:23:28,599 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8278
+2025-07-29 20:50:26,201 - INFO - Successfully stored 295072 documents in Pinecone index 'legal-chatbot2'.
+2025-07-29 20:50:26,239 - INFO - \u2705 Pipeline completed and documents stored in Pinecone.
+2025-07-29 21:06:50,911 - INFO - Use pytorch device_name: cpu
+2025-07-29 21:06:50,911 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 21:07:48,061 - INFO - \U0001f50d Query: Provide the top 10 judgments with full details of the judgments of drink and drive case 
+2025-07-29 21:07:48,065 - INFO - Use pytorch device_name: cpu
+2025-07-29 21:07:48,065 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 21:07:57,479 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 21:07:57,750 - INFO - \u2705 Similarity (query \u2194 answer): 0.6557
+2025-07-29 21:07:57,752 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7791
+2025-07-29 22:21:48,231 - INFO - \U0001f50d Query: Provide the rescent  top 10 judgments with full details of the judgments of drink and drive case 
+
+2025-07-29 22:21:48,241 - INFO - Use pytorch device_name: cpu
+2025-07-29 22:21:48,242 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-29 22:22:17,513 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 22:22:17,940 - INFO - \u2705 Similarity (query \u2194 answer): 0.6284
+2025-07-29 22:22:17,940 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.6806
