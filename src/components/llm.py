@@ -22,7 +22,7 @@ from langchain_groq import ChatGroq
 llm = ChatGroq(
     groq_api_key=GROQ_API_KEY,
     model_name="Llama3-8b-8192",
-    temperature=1,
+    temperature=0.8,
     top_p=0.9
 )
 docsearch = load_existing_docsearch("legal-chatbot2")

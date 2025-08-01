@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: RAG-Legal-Chatbot
+Version: 0.1
+Author: Aswini
+Requires-Dist: langchain==0.3.26
+Requires-Dist: sentence-transformers==4.1.0
+Requires-Dist: pypdf==5.6.1
+Requires-Dist: python-dotenv==1.1.0
+Requires-Dist: langchain-pinecone==0.2.8
+Requires-Dist: langchain-openai==0.3.24
+Requires-Dist: langchain-community==0.3.26
+Requires-Dist: langchain_groq
+Requires-Dist: streamlit
+Dynamic: author
+Dynamic: requires-dist
