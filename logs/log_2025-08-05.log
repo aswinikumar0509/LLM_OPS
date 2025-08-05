@@ -1,0 +1,30 @@
+2025-08-05 03:59:51,321 - INFO - Use pytorch device_name: cpu
+2025-08-05 03:59:51,321 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 04:00:32,987 - INFO - \U0001f50d Query: Provide me the judgenment hit and drive  provide me the full description of the judgenment 
+2025-08-05 04:00:32,996 - INFO - Use pytorch device_name: cpu
+2025-08-05 04:00:32,996 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 04:00:40,346 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 04:00:40,592 - INFO - \u2705 Similarity (query \u2194 answer): 0.6780
+2025-08-05 04:00:40,592 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7974
+2025-08-05 04:00:49,114 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2025-08-05 04:01:04,097 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2025-08-05 04:19:26,799 - INFO - \U0001f50d Query: Provide me the judgenment for the murder case.
+2025-08-05 04:19:26,806 - INFO - Use pytorch device_name: cpu
+2025-08-05 04:19:26,807 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 04:19:33,017 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 04:19:33,281 - INFO - \u2705 Similarity (query \u2194 answer): 0.6787
+2025-08-05 04:19:33,281 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7870
+2025-08-05 04:19:40,397 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 04:19:52,782 - INFO - \U0001f50d Query: Provide me the judgenment for the murder case.
+2025-08-05 04:19:52,794 - INFO - Use pytorch device_name: cpu
+2025-08-05 04:19:52,794 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 04:19:58,364 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 04:19:58,626 - INFO - \u2705 Similarity (query \u2194 answer): 0.6752
+2025-08-05 04:19:58,626 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8224
+2025-08-05 04:23:02,851 - INFO - Use pytorch device_name: cpu
+2025-08-05 04:23:02,851 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 04:23:07,798 - INFO - \U0001f50d Query: Provide me the latest judgenmet  of drunk and drive case  with full details
+2025-08-05 04:23:07,805 - INFO - Use pytorch device_name: cpu
+2025-08-05 04:23:07,805 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 04:23:13,730 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2025-08-05 04:23:13,731 - ERROR - \u274c Retrieval failed: Error code: 503 - {'error': {'message': 'llama3-8b-8192 is currently over capacity. Please try again and back off exponentially. Visit https://groqstatus.com/ to see if there is an active incident.', 'type': 'internal_server_error'}}

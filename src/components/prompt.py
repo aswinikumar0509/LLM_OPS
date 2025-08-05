@@ -40,9 +40,11 @@ When users ask for judgments, ensure to provide:
 Minimum 5 relevant judgments from the knowledge base
 Complete case details including:
 
-Case name and citation
+Case name 
+Case Number
 Court and bench
 Legal issues
+Judges
 Judgment summary
 Key reasoning
 Legal implications

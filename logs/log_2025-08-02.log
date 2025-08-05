@@ -1,0 +1,24 @@
+2025-08-02 22:17:14,619 - INFO - Use pytorch device_name: cpu
+2025-08-02 22:17:14,619 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-02 22:17:52,895 - INFO - \U0001f50d Query: Provide me top 5 judgennment of murder case for the research
+2025-08-02 22:17:52,908 - INFO - Use pytorch device_name: cpu
+2025-08-02 22:17:52,908 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-02 22:17:58,520 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-02 22:17:58,878 - INFO - \u2705 Similarity (query \u2194 answer): 0.6267
+2025-08-02 22:17:58,878 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7847
+2025-08-02 22:18:27,539 - INFO - \U0001f50d Query: Provide me top 5 judgennment of murder case for the research and provide me all the details of the judgenment
+2025-08-02 22:18:27,546 - INFO - Use pytorch device_name: cpu
+2025-08-02 22:18:27,546 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-02 22:18:32,954 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-02 22:18:33,513 - INFO - \u2705 Similarity (query \u2194 answer): 0.6705
+2025-08-02 22:18:33,513 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8456
+2025-08-02 22:25:18,988 - INFO - Use pytorch device_name: cpu
+2025-08-02 22:25:18,988 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-02 22:26:14,637 - INFO - Use pytorch device_name: cpu
+2025-08-02 22:26:14,637 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-02 22:26:46,201 - INFO - \U0001f50d Query: Provide me top five judgenmt of murder case with all the details
+2025-08-02 22:26:46,208 - INFO - Use pytorch device_name: cpu
+2025-08-02 22:26:46,208 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-02 22:26:52,165 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-02 22:26:52,516 - INFO - \u2705 Similarity (query \u2194 answer): 0.6979
+2025-08-02 22:26:52,516 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8061
