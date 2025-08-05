@@ -1,6 +1,6 @@
 from langchain.tools import Tool
 from langchain.agents import initialize_agent, AgentType
-from src.components.llm_instance import llm
+from src.components.llm import llm
 
 def summarizer_fn(text: str) -> str:
     response = llm.invoke([

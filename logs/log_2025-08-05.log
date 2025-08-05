@@ -28,3 +28,18 @@
 2025-08-05 04:23:07,805 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
 2025-08-05 04:23:13,730 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
 2025-08-05 04:23:13,731 - ERROR - \u274c Retrieval failed: Error code: 503 - {'error': {'message': 'llama3-8b-8192 is currently over capacity. Please try again and back off exponentially. Visit https://groqstatus.com/ to see if there is an active incident.', 'type': 'internal_server_error'}}
+2025-08-05 10:18:04,673 - INFO - Use pytorch device_name: cpu
+2025-08-05 10:18:04,674 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 10:18:51,085 - INFO - \U0001f50d Query: suraj lamp vs haryana judgenment 
+2025-08-05 10:18:51,093 - INFO - Use pytorch device_name: cpu
+2025-08-05 10:18:51,093 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 10:18:58,848 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 10:18:59,279 - INFO - \u2705 Similarity (query \u2194 answer): 0.6263
+2025-08-05 10:18:59,279 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7935
+2025-08-05 10:19:43,881 - INFO - \U0001f50d Query: suraj lamp vs haryana judgenment provide full details of the judgenment
+2025-08-05 10:19:43,888 - INFO - Use pytorch device_name: cpu
+2025-08-05 10:19:43,888 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 10:19:51,391 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 10:19:51,762 - INFO - \u2705 Similarity (query \u2194 answer): 0.7004
+2025-08-05 10:19:51,762 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8598
+2025-08-05 10:20:15,342 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
