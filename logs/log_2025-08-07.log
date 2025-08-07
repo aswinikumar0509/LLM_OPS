@@ -153,3 +153,40 @@ Himachal Pradesh State Electricity Board Ltd. & Anr
 2025-08-07 04:38:33,069 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-08-07 04:38:33,450 - INFO - \u2705 Similarity (query \u2194 answer): 0.6604
 2025-08-07 04:38:33,450 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.6667
+2025-08-07 13:29:33,920 - INFO - Loaded 1 documents from reaearch\combined_output2.txt
+2025-08-07 13:29:33,931 - INFO - Filtered to 1 minimal documents.
+2025-08-07 13:29:46,001 - INFO - Use pytorch device_name: cpu
+2025-08-07 13:29:46,001 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 13:29:49,870 - INFO - Successfully prepared 136409 text chunks with embeddings.
+2025-08-07 13:29:56,257 - INFO - Use pytorch device_name: cpu
+2025-08-07 13:29:56,257 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 13:30:18,855 - INFO - \U0001f50d Query: Provide me the judgenment for the murder case
+2025-08-07 13:30:18,860 - INFO - Use pytorch device_name: cpu
+2025-08-07 13:30:18,860 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 13:30:29,655 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2025-08-07 13:30:29,656 - ERROR - \u274c Retrieval failed: Error code: 413 - {'error': {'message': 'Request Entity Too Large', 'type': 'invalid_request_error', 'code': 'request_too_large'}}
+2025-08-07 13:31:48,262 - INFO - Loaded 1 documents from reaearch\combined_output2.txt
+2025-08-07 13:31:48,262 - INFO - Filtered to 1 minimal documents.
+2025-08-07 13:31:52,866 - INFO - Use pytorch device_name: cpu
+2025-08-07 13:31:52,866 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 13:31:56,025 - INFO - Successfully prepared 136409 text chunks with embeddings.
+2025-08-07 13:32:06,800 - INFO - Use pytorch device_name: cpu
+2025-08-07 13:32:06,800 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 13:32:19,309 - INFO - \U0001f50d Query: Provide me the judgenment for the murder case
+2025-08-07 13:32:19,315 - INFO - Use pytorch device_name: cpu
+2025-08-07 13:32:19,315 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 13:32:25,000 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 13:32:25,271 - INFO - \u2705 Similarity (query \u2194 answer): 0.6391
+2025-08-07 13:32:25,271 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.6733
+2025-08-07 13:32:47,807 - INFO - \U0001f50d Query: Provide me the judgenments for the murder case
+2025-08-07 13:32:47,812 - INFO - Use pytorch device_name: cpu
+2025-08-07 13:32:47,812 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 13:32:52,501 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 13:32:52,831 - INFO - \u2705 Similarity (query \u2194 answer): 0.6364
+2025-08-07 13:32:52,831 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.6966
+2025-08-07 13:33:47,838 - INFO - \U0001f50d Query: Provide me the relevent  judgments for the murder case
+2025-08-07 13:33:47,847 - INFO - Use pytorch device_name: cpu
+2025-08-07 13:33:47,847 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 13:33:52,670 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 13:33:52,919 - INFO - \u2705 Similarity (query \u2194 answer): 0.5930
+2025-08-07 13:33:52,919 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.6531
