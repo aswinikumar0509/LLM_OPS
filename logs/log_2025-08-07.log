@@ -1,0 +1,155 @@
+2025-08-07 03:58:16,375 - INFO - Use pytorch device_name: cpu
+2025-08-07 03:58:16,375 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 03:58:53,989 - INFO - \U0001f50d Query: Byluru Thippaiah @ Byaluru Thippaiah 
+@ Nayakara Thippaiah
+v.
+State of Karnataka provide me this case
+2025-08-07 03:58:54,000 - INFO - Use pytorch device_name: cpu
+2025-08-07 03:58:54,000 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 03:59:00,114 - ERROR - \u274c Retrieval failed: Completions.create() got an unexpected keyword argument 'top_k'
+2025-08-07 03:59:53,905 - INFO - Use pytorch device_name: cpu
+2025-08-07 03:59:53,905 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:00:09,783 - INFO - \U0001f50d Query: Byluru Thippaiah @ Byaluru Thippaiah 
+@ Nayakara Thippaiah
+v.
+State of Karnataka provide me this case
+2025-08-07 04:00:09,796 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:00:09,796 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:00:17,405 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:00:17,987 - INFO - \u2705 Similarity (query \u2194 answer): 0.6348
+2025-08-07 04:00:17,987 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8736
+2025-08-07 04:06:56,785 - INFO - \U0001f50d Query: STATE OF JHARKHAND
+v.
+SHIV SHANKAR SHARMA AND ORS.
+(Civil Appeal No. 8233-34 of 2022) provide me this case
+2025-08-07 04:06:56,792 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:06:56,792 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:07:04,375 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:07:04,741 - INFO - \u2705 Similarity (query \u2194 answer): 0.8650
+2025-08-07 04:07:04,741 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7319
+2025-08-07 04:07:30,480 - INFO - \U0001f50d Query: STATE OF JHARKHAND
+v.
+SHIV SHANKAR SHARMA AND ORS.
+(Civil Appeal No. 8233-34 of 2022) provide me this case
+2025-08-07 04:07:30,511 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:07:30,511 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:07:36,230 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:07:36,591 - INFO - \u2705 Similarity (query \u2194 answer): 0.8768
+2025-08-07 04:07:36,591 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8035
+2025-08-07 04:08:01,872 - INFO - \U0001f50d Query: Vijay Kumar
+v.
+Central Bank of India & Ors. provide me this case
+2025-08-07 04:08:01,891 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:08:01,892 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:08:08,535 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:08:08,861 - INFO - \u2705 Similarity (query \u2194 answer): 0.8298
+2025-08-07 04:08:08,863 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7025
+2025-08-07 04:08:14,792 - INFO - \U0001f50d Query: Vijay Kumar
+v.
+Central Bank of India & Ors. provide me this case
+2025-08-07 04:08:14,809 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:08:14,809 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:08:20,052 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:08:20,425 - INFO - \u2705 Similarity (query \u2194 answer): 0.7752
+2025-08-07 04:08:20,425 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7271
+2025-08-07 04:14:51,425 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:14:51,425 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:14:57,078 - INFO - \U0001f50d Query: UCO Bank & Anr.
+v.
+Vijay Kumar Handa provide me this case
+2025-08-07 04:14:57,104 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:14:57,106 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:15:04,065 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:15:04,456 - INFO - \u2705 Similarity (query \u2194 answer): 0.7308
+2025-08-07 04:15:04,456 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8267
+2025-08-07 04:17:11,124 - INFO - \U0001f50d Query: Provide me with this case UCO Bank & Anr. v. Vijay Kumar Handa 
+2025-08-07 04:17:11,141 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:17:11,141 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:17:19,792 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:17:20,154 - INFO - \u2705 Similarity (query \u2194 answer): 0.7267
+2025-08-07 04:17:20,154 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7903
+2025-08-07 04:18:42,768 - INFO - \U0001f50d Query: Provide me with this case UCO Bank & Anr. v. Vijay Kumar Handa 
+2025-08-07 04:18:42,801 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:18:42,801 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:18:49,918 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:18:50,303 - INFO - \u2705 Similarity (query \u2194 answer): 0.7742
+2025-08-07 04:18:50,303 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8319
+2025-08-07 04:18:59,350 - INFO - \U0001f50d Query: Provide me with this case UCO Bank & Anr. v. Vijay Kumar Handa 
+2025-08-07 04:18:59,376 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:18:59,376 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:19:05,509 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:19:05,900 - INFO - \u2705 Similarity (query \u2194 answer): 0.7596
+2025-08-07 04:19:05,900 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8135
+2025-08-07 04:20:32,751 - INFO - \U0001f50d Query: Provide me the judgenmetn Kashmiri Lal Sharma
+v.
+Himachal Pradesh State Electricity Board Ltd. & Anr
+2025-08-07 04:20:32,766 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:20:32,766 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:20:39,787 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:20:40,149 - INFO - \u2705 Similarity (query \u2194 answer): 0.8127
+2025-08-07 04:20:40,149 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7014
+2025-08-07 04:20:55,540 - INFO - \U0001f50d Query: Provide me the judgenmetn Kashmiri Lal Sharma v. Himachal Pradesh State Electricity Board Ltd. & Anr
+2025-08-07 04:20:55,575 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:20:55,575 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:21:02,136 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:21:02,557 - INFO - \u2705 Similarity (query \u2194 answer): 0.7836
+2025-08-07 04:21:02,557 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7854
+2025-08-07 04:22:49,662 - INFO - \U0001f50d Query: Provide me with the judgment of Vinay Aggarwal v. The State of Haryana and Ors.
+2025-08-07 04:22:49,676 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:22:49,676 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:22:57,929 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:22:58,252 - INFO - \u2705 Similarity (query \u2194 answer): 0.8634
+2025-08-07 04:22:58,252 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7650
+2025-08-07 04:31:31,034 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:31:31,034 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:31:36,479 - INFO - \U0001f50d Query: Provide me the judgenment for the murder case
+2025-08-07 04:31:36,518 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:31:36,518 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:31:43,401 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:31:43,752 - INFO - \u2705 Similarity (query \u2194 answer): 0.5849
+2025-08-07 04:31:43,752 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7698
+2025-08-07 04:32:32,579 - INFO - \U0001f50d Query: Provide me with the judgment for the murder cases
+2025-08-07 04:32:32,595 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:32:32,595 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:32:39,797 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:32:40,181 - INFO - \u2705 Similarity (query \u2194 answer): 0.6732
+2025-08-07 04:32:40,181 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8384
+2025-08-07 04:33:23,535 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:33:23,535 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:33:34,670 - INFO - \U0001f50d Query: Provide me with the judgment for the murder cases
+2025-08-07 04:33:34,692 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:33:34,693 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:33:41,361 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:33:41,741 - INFO - \u2705 Similarity (query \u2194 answer): 0.6535
+2025-08-07 04:33:41,741 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8176
+2025-08-07 04:34:24,242 - INFO - \U0001f50d Query: Provide me with the judgments for the murder cases
+2025-08-07 04:34:24,269 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:34:24,269 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:34:31,449 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:34:31,794 - INFO - \U0001f50d Query: Provide me with the judgments for the murder cases
+2025-08-07 04:34:31,820 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:34:31,820 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:34:31,858 - INFO - \u2705 Similarity (query \u2194 answer): 0.7234
+2025-08-07 04:34:31,858 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7778
+2025-08-07 04:34:38,673 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:34:39,054 - INFO - \u2705 Similarity (query \u2194 answer): 0.6506
+2025-08-07 04:34:39,092 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7056
+2025-08-07 04:35:58,718 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:35:58,718 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:36:06,014 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:36:54,229 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:36:54,229 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:37:05,070 - INFO - \U0001f50d Query: Provide me with the judgments for the murder cases
+2025-08-07 04:37:05,088 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:37:05,088 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:37:12,766 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:37:13,154 - INFO - \u2705 Similarity (query \u2194 answer): 0.6412
+2025-08-07 04:37:13,154 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.6768
+2025-08-07 04:38:13,477 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:38:13,483 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:38:24,451 - INFO - \U0001f50d Query: Provide me with the judgments for the murder cases
+2025-08-07 04:38:24,463 - INFO - Use pytorch device_name: cpu
+2025-08-07 04:38:24,463 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-07 04:38:33,069 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 04:38:33,450 - INFO - \u2705 Similarity (query \u2194 answer): 0.6604
+2025-08-07 04:38:33,450 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.6667

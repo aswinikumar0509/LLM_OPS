@@ -43,3 +43,19 @@
 2025-08-05 10:19:51,762 - INFO - \u2705 Similarity (query \u2194 answer): 0.7004
 2025-08-05 10:19:51,762 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8598
 2025-08-05 10:20:15,342 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 10:28:00,769 - INFO - Use pytorch device_name: cpu
+2025-08-05 10:28:00,769 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 10:28:23,596 - INFO - \U0001f50d Query: Provide me the judgenment of murder case
+2025-08-05 10:28:23,611 - INFO - Use pytorch device_name: cpu
+2025-08-05 10:28:23,611 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 10:28:31,289 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 10:28:31,708 - INFO - \u2705 Similarity (query \u2194 answer): 0.6333
+2025-08-05 10:28:31,708 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.7753
+2025-08-05 10:28:38,831 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2025-08-05 11:42:11,569 - INFO - \U0001f50d Query: Provide me the judgenment of murder case
+2025-08-05 11:42:11,588 - INFO - Use pytorch device_name: cpu
+2025-08-05 11:42:11,588 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-05 11:42:19,017 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 11:42:19,398 - INFO - \u2705 Similarity (query \u2194 answer): 0.6656
+2025-08-05 11:42:19,398 - INFO - \u2705 Faithfulness (context \u2194 answer): 0.8037
+2025-08-05 11:42:31,096 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
